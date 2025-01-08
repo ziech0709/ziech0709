@@ -3,11 +3,11 @@ import streamlit as st
 # 웹사이트 제목
 st.title("블리치 (BLEACH) - 만화 소개")
 
-# 제목 아래에 이미지 추가
+# 제목 아래에 블리치 메인 이미지 추가
 st.image(
-    "https://i.ytimg.com/vi/gqOg84UYQoA/maxresdefault.jpg",  # 새로운 이미지 URL
-    caption="BLEACH 20주년 기념 이미지",  # 이미지 캡션
-    use_column_width=True  # 화면 너비에 맞게 조정
+    "https://i.ytimg.com/vi/gqOg84UYQoA/maxresdefault.jpg",
+    caption="BLEACH 20주년 기념 이미지",
+    use_column_width=True
 )
 
 # 섹션: 개요
@@ -31,20 +31,39 @@ st.write("""
 
 # 섹션: 주요 등장인물
 st.header("주요 등장인물")
+
+# 쿠로사키 이치고
 st.subheader("쿠로사키 이치고")
+st.image(
+    "https://wallpapers.com/images/high/ichigo-kurosaki-bleach-anime-4k-wallpaper-8kx0zq2l5t3x5o2h.jpg",  # 검색 결과 [1]에서 가져옴
+    caption="쿠로사키 이치고",
+    use_column_width=True
+)
 st.write("""
 이 작품의 주인공으로, 영혼을 볼 수 있는 능력을 가진 고등학생입니다.
 어느 날 사신 쿠치키 루키아와 만나면서 사신의 힘을 얻고, 
 자신의 마을과 소중한 사람들을 지키기 위해 싸웁니다.
 """)
 
+# 쿠치키 루키아
 st.subheader("쿠치키 루키아")
+st.image(
+    "https://myanimelist.net/images/characters/6/1234.jpg",  # 검색 결과 [2]에서 가져옴
+    caption="쿠치키 루키아",
+    use_column_width=True
+)
 st.write("""
 소울 소사이어티에서 온 사신으로, 이치고에게 자신의 힘을 나눠준 뒤 인간 세계에서 함께 활동합니다.
 그녀는 소울 소사이어티에서 중요한 사건에 휘말리며 이야기가 전개됩니다.
 """)
 
+# 아이젠 소스케
 st.subheader("아이젠 소스케")
+st.image(
+    "https://www.cbr.com/wp-content/uploads/2024/11/sosuke-aizen-bleach.jpg",  # 검색 결과 [3]에서 가져옴
+    caption="아이젠 소스케",
+    use_column_width=True
+)
 st.write("""
 소울 소사이어티의 반역자로, 주요 악역 중 하나입니다. 
 그는 강력한 힘과 지능으로 여러 음모를 꾸미며 스토리를 긴장감 있게 이끌어갑니다.
@@ -72,9 +91,3 @@ feedback = st.text_input("블리치에 대한 의견이나 감상을 남겨주�
 if feedback:
     st.write(f"감사합니다! 남겨주신 의견: {feedback}")
 
-
-
-# 섹션: 사용자 피드백
-feedback = st.text_input("블리치에 대한 의견이나 감상을 남겨주세요!")
-if feedback:
-    st.write(f"감사합니다! 남겨주신 의견: {feedback}")
