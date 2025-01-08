@@ -35,7 +35,7 @@ st.header("주요 등장인물")
 # 쿠로사키 이치고
 st.subheader("쿠로사키 이치고")
 st.image(
-    "https://wallpapers.com/images/high/ichigo-kurosaki-bleach-anime-4k-wallpaper-8kx0zq2l5t3x5o2h.jpg",  # 검색 결과 [1]에서 가져옴
+    "https://i.namu.wiki/i/el0ONvMhzqnXiG0S807sE86-dGl1p_d5o7N3mkoS_Es5vHNdZlE-r0wnAm-mlBEc1dTgy8i_7nWwGgNGyBUd-Q.webp",  # 검색 결과 [1]에서 가져옴
     caption="쿠로사키 이치고",
     use_column_width=True
 )
@@ -48,7 +48,7 @@ st.write("""
 # 쿠치키 루키아
 st.subheader("쿠치키 루키아")
 st.image(
-    "https://myanimelist.net/images/characters/6/1234.jpg",  # 검색 결과 [2]에서 가져옴
+    "https://i.namu.wiki/i/Wk0HNxKx9y2pDo1k88pUUpCAPHcVga-2ZV0Rud6MKdljfAtBvijixojWdnas1UHgL2btDZiJE76lqDcXHMUZ6g.webp",  # 검색 결과 [2]에서 가져옴
     caption="쿠치키 루키아",
     use_column_width=True
 )
@@ -60,7 +60,7 @@ st.write("""
 # 아이젠 소스케
 st.subheader("아이젠 소스케")
 st.image(
-    "https://www.cbr.com/wp-content/uploads/2024/11/sosuke-aizen-bleach.jpg",  # 검색 결과 [3]에서 가져옴
+    "https://i.namu.wiki/i/Tjj_lYI2Y_EAlwOzexBz8DtkRlkCRu6zte9A6yJgCFphiYcSOMhx2wLFjGym7uumXkURQwHVbmCVkW5WAKgD2A.webp",  # 검색 결과 [3]에서 가져옴
     caption="아이젠 소스케",
     use_column_width=True
 )
