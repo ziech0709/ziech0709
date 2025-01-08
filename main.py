@@ -84,6 +84,42 @@ st.write("""
 소울 소사이어티의 반역자로, 주요 악역 중 하나입니다. 
 그는 강력한 힘과 지능으로 여러 음모를 꾸미며 스토리를 긴장감 있게 이끌어갑니다.
 """)
+# 히라코 신지
+st.subheader("히라코 신지")
+st.image(
+    "https://www.instagram.com/mantis.nova_/p/DB2oO-eCcvw/",  # 검색 결과 [8] 사용
+    caption="히라코 신지",
+    use_column_width=True
+)
+st.write("""
+히라코 신지는 전직 사신이며 바이저드(Vizard)의 리더입니다. 
+그는 독특한 유머 감각과 뛰어난 전투 능력을 가지고 있으며, 
+이치고와 그의 동료들에게 중요한 조언자 역할을 합니다.
+""")
+
+# 쿠치키 뱌쿠야
+st.subheader("쿠치키 뱌쿠야")
+st.image(
+    "https://www.zerochan.net/Kuchiki+Byakuya",  # 검색 결과 [6] 사용
+    caption="쿠치키 뱌쿠야",
+    use_column_width=True
+)
+st.write("""
+뱌쿠야는 6번대 대장으로서 귀족적인 태도와 강력한 전투력을 자랑합니다. 
+그는 엄격한 법과 규율을 따르며, 루키아의 양오빠로서 그녀를 보호하려는 깊은 애정을 가지고 있습니다.
+""")
+
+# 이시다 우류
+st.subheader("이시다 우류")
+st.image(
+    "https://myanimelist.net/character/564/Uryuu_Ishida/pics",  # 검색 결과 [10] 사용
+    caption="이시다 우류",
+    use_column_width=True
+)
+st.write("""
+우류는 퀸시(Quincy)의 후손으로서 뛰어난 활 솜씨와 전략적 사고를 가지고 있습니다. 
+그는 이치고와 경쟁하면서도 협력하며, 때로는 냉철하지만 따뜻한 마음씨를 보여줍니다.
+""")
 
 # 섹션: 주요 스토리 아크
 st.header("주요 스토리 아크")
