@@ -1,10 +1,10 @@
 import streamlit as st
 
-# HTML로 회색 배경화면 스타일 설정
+# HTML로 블리치 스타일 배경화면 설정
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGdyYXl8ZW58MHx8fHwxNjc1MTczNjk3&ixlib=rb-1.2.1&q=80&w=1080");
+    background-image: url("https://wallpapers.com/images/high/ichigo-kurosaki-bleach-anime-4k-wallpaper-8kx0zq2l5t3x5o2h.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,6 +14,7 @@ page_bg_img = '''
 
 # Streamlit 앱에 스타일 적용
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 # 웹사이트 제목
 st.title("블리치 (BLEACH) - 만화 소개")
