@@ -60,6 +60,11 @@ st.write("""
 어느 날 사신 쿠치키 루키아와 만나면서 사신의 힘을 얻고, 
 자신의 마을과 소중한 사람들을 지키기 위해 싸웁니다.
 """)
+st.image(
+    "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif",  # Getsuga Tensho GIF
+    caption="이치고의 기술: 월아천충 (Getsuga Tensho)",
+    use_column_width=True
+)
 
 # 쿠치키 루키아
 st.subheader("쿠치키 루키아")
