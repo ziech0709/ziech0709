@@ -35,7 +35,7 @@ st.header("주요 등장인물")
 # 쿠로사키 이치고
 st.subheader("쿠로사키 이치고")
 st.image(
-    "https://i.namu.wiki/i/el0ONvMhzqnXiG0S807sE86-dGl1p_d5o7N3mkoS_Es5vHNdZlE-r0wnAm-mlBEc1dTgy8i_7nWwGgNGyBUd-Q.webp",  # 검색 결과 [1]에서 가져옴
+    "https://i.pinimg.com/736x/51/aa/f8/51aaf8bdb474c43e135b811a3fe4b239.jpg",  # 검색 결과 [1]에서 가져옴
     caption="쿠로사키 이치고",
     use_column_width=True
 )
