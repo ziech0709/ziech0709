@@ -1,22 +1,14 @@
 import streamlit as st
 
-# HTML을 사용해 배경 이미지 스타일 적용
-page_bg_img = '''
-<style>
-.stApp {
-    background-image: url("https://www.crunchyroll.com/news/latest/2024/9/16/bleach-anime-unleashes-20th-anniversary-video-and-art");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-</style>
-'''
-
-# Streamlit 앱에 스타일 적용
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
 # 웹사이트 제목
 st.title("블리치 (BLEACH) - 만화 소개")
+
+# 제목 아래에 이미지 추가
+st.image(
+    "https://www.crunchyroll.com/news/latest/2024/9/16/bleach-anime-unleashes-20th-anniversary-video-and-art",
+    caption="BLEACH 20주년 기념 이미지",  # 이미지 캡션
+    use_column_width=True  # 화면 너비에 맞게 조정
+)
 
 # 섹션: 개요
 st.header("개요")
@@ -74,6 +66,12 @@ st.write("""
 - 제50회 쇼가쿠칸 만화상 소년 부문을 수상했습니다.
 - 타이틀 'BLEACH'는 검은색과 대비되는 흰색(표백)을 강조하기 위해 붙여졌습니다.
 """)
+
+# 섹션: 사용자 피드백
+feedback = st.text_input("블리치에 대한 의견이나 감상을 남겨주세요!")
+if feedback:
+    st.write(f"감사합니다! 남겨주신 의견: {feedback}")
+
 
 # 섹션: 사용자 피드백
 feedback = st.text_input("블리치에 대한 의견이나 감상을 남겨주세요!")
