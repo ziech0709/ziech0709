@@ -17,7 +17,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 # 웹사이트 제목
-st.title("블리치 (BLEACH) - 만화 소개")
+st.title("블리치(ブリーチ)(BLEACH) - 만화 소개")
 
 # 제목 아래에 블리치 메인 이미지 추가
 st.image(
