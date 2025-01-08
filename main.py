@@ -87,7 +87,7 @@ st.write("""
 # 히라코 신지
 st.subheader("히라코 신지")
 st.image(
-    "https://www.instagram.com/mantis.nova_/p/DB2oO-eCcvw/",  # 검색 결과 [8] 사용
+    "https://i.namu.wiki/i/zL9TMcIXmgNaN3VuGfcwx11aLS8oSVqgy3OiITjhgz4BI_Xz8REcsI6QBOpXWlxkWXL3IYZD4K-DC10rmnCPhQ.webp",  # 검색 결과 [8] 사용
     caption="히라코 신지",
     use_column_width=True
 )
@@ -100,7 +100,7 @@ st.write("""
 # 쿠치키 뱌쿠야
 st.subheader("쿠치키 뱌쿠야")
 st.image(
-    "https://www.zerochan.net/Kuchiki+Byakuya",  # 검색 결과 [6] 사용
+    "https://i.namu.wiki/i/rmWVQUgSmdQQFpry1-xJyNHUDPMkO-FmgzgJDNMslBB3v5W5zgx9dihhHaOYrIwdw0EvTNWxPY9xmKbDwi1IPA.webp",  # 검색 결과 [6] 사용
     caption="쿠치키 뱌쿠야",
     use_column_width=True
 )
@@ -112,7 +112,7 @@ st.write("""
 # 이시다 우류
 st.subheader("이시다 우류")
 st.image(
-    "https://myanimelist.net/character/564/Uryuu_Ishida/pics",  # 검색 결과 [10] 사용
+    "https://i.namu.wiki/i/tSLSKAY50gcdJtjMvw1B95wETEluUoY_xiJ8Iyoz2aY_Fvl_EjEmkl0aSmRDqlrG3IIkGWIQDlHER_puZvGGcQ.webp",  # 검색 결과 [10] 사용
     caption="이시다 우류",
     use_column_width=True
 )
