@@ -5,7 +5,7 @@ st.title("블리치 (BLEACH) - 만화 소개")
 
 # 제목 아래에 이미지 추가
 st.image(
-    "https://www.crunchyroll.com/news/latest/2024/9/16/bleach-anime-unleashes-20th-anniversary-video-and-art",
+    "https://i.ytimg.com/vi/gqOg84UYQoA/maxresdefault.jpg",  # 새로운 이미지 URL
     caption="BLEACH 20주년 기념 이미지",  # 이미지 캡션
     use_column_width=True  # 화면 너비에 맞게 조정
 )
@@ -71,6 +71,7 @@ st.write("""
 feedback = st.text_input("블리치에 대한 의견이나 감상을 남겨주세요!")
 if feedback:
     st.write(f"감사합니다! 남겨주신 의견: {feedback}")
+
 
 
 # 섹션: 사용자 피드백
