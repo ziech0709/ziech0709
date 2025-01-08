@@ -1,13 +1,20 @@
 import streamlit as st
 
-# HTML로 블리치 스타일 배경화면 설정
+# HTML로 블리치 스타일 배경화면 및 텍스트 색상 설정
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://images4.alphacoders.com/135/1355403.png");
+    background-image: url("https://wallpapers.com/images/high/ichigo-kurosaki-bleach-anime-4k-wallpaper-8kx0zq2l5t3x5o2h.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;  /* 기본 텍스트 색상을 흰색으로 설정 */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;  /* 헤더 텍스트를 흰색으로 설정 */
+}
+p {
+    color: white;  /* 일반 텍스트를 흰색으로 설정 */
 }
 </style>
 '''
