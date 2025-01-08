@@ -1,10 +1,10 @@
 import streamlit as st
 
-# HTML로 배경화면 스타일 설정
+# HTML로 회색 배경화면 스타일 설정
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0");
+    background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGdyYXl8ZW58MHx8fHwxNjc1MTczNjk3&ixlib=rb-1.2.1&q=80&w=1080");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
