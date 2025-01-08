@@ -77,6 +77,11 @@ st.write("""
 소울 소사이어티에서 온 사신으로, 이치고에게 자신의 힘을 나눠준 뒤 인간 세계에서 함께 활동합니다.
 그녀는 소울 소사이어티에서 중요한 사건에 휘말리며 이야기가 전개됩니다.
 """)
+st.image(
+    "https://i.namu.wiki/i/Pm4Np__yODOoqIoczY7c4udETGvAFE-nsJNItLEMVfFZDduUJoDXRP3V6Dxck2IIG7bguUrfRw5Jn0O3Ozq72w.gif",  # Sode no Shirayuki GIF
+    caption="루키아의 기술: 백하벌 (Sode no Shirayuki)",
+    use_column_width=True
+)
 
 # 아이젠 소스케
 st.subheader("아이젠 소스케")
