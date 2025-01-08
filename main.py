@@ -4,7 +4,7 @@ import streamlit as st
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://wallpapers.com/images/high/ichigo-kurosaki-bleach-anime-4k-wallpaper-8kx0zq2l5t3x5o2h.jpg");
+    background-image: url("https://img.hulu.com/user/v3/artwork/3efd0d2b-8d29-43fa-883e-d9b50cfb8cce?base_image_bucket_name=image_manager&base_image=df9c5faa-5251-4b73-b19a-59d163303d89&size=1200x630&format=webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
